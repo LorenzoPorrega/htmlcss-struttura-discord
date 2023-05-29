@@ -123,3 +123,41 @@ main section:last-child div{
 #last-div{
     height: 75%;
 }
+
+footer{
+    height: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35, 39, 42);
+    flex-wrap: wrap;
+}
+
+#footer-info{
+    width: 66%;
+    height: 75%;
+    display: flex;
+}
+
+#lang-social{
+    background-color: rgb(240, 128, 128);
+    width: 33.3%;
+    justify-content: flex-start;
+}
+
+#site-map{
+    background-color: rgb(32, 178, 170);
+    width: 66.6%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#site-map nav{
+    width: 33.3%;
+    border: 1px solid grey;
+}
+
+hr{
+    background-color: whitesmoke;
+    width: 66%;
+}
