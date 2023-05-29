@@ -127,7 +127,7 @@ main section:last-child div{
 footer{
     height: 780px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     background-color: rgb(35, 39, 42);
     flex-wrap: wrap;
@@ -135,7 +135,8 @@ footer{
 
 #footer-info{
     width: 66%;
-    height: 75%;
+    height: 85%;
+    padding-top: 15px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -163,4 +164,18 @@ hr{
     width: 100%;
     height: 2px;
     margin: 10px 0px;
+}
+
+#footer-bottom{
+    background-color: rgb(127, 255, 212);
+    width: 66%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-bottom div{
+    padding: 5px 10px;
+    background-color: rgb(255, 182, 193);
 }
