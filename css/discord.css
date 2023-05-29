@@ -24,6 +24,11 @@ header{
 #header-nav div{
     background-color: rgb(218, 165, 32);
     line-height: 35px;
+}
+
+#nav-menu{
+    width: 680px;
+    border: 1px solid grey;
     display: flex;
     justify-content: center;
 }
@@ -32,18 +37,14 @@ header{
     padding: 0 10px;
 }
 
-#nav-menu{
-    width: 680px;
-    border: 1px solid grey;
-}
-
 .nav-side{
     width: 200px;
+    padding: 0 15px;
 }
 
 #logo{
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     border: 1px solid grey;
 }
 
@@ -53,7 +54,6 @@ header{
     text-align: right;
     border: 1px solid grey;
 }
-
 
 #header-bio{
     height: 650px;
@@ -66,6 +66,7 @@ header{
 }
 
 #header-bio-text{
+    width: 980px;
     background-color: rgb(238, 130, 238);
     min-height: 75%;
 }
@@ -80,18 +81,45 @@ h2 ~ p{
     line-height: 40px;
 }
 
-.centeral-boxes{
-    width: 980px;
+main section{
+    height: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-section main{
-    height: 1080px;
+main section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    width: 66%;
 }
 
-.div-larg{
-
+.div-large{
+    width: 66.6%;
+    height: 100%;
+    background-color: rgb(255, 192, 203);
 }
 
 .div-small{
+    width: 33.3%;
+    height: 100%;
+    background-color: rgb(30, 144, 255);
+}
 
+main section:nth-child(2n+0){
+    background-color: grey;
+}
+
+main section:last-child div{
+    background-color: rgb(34, 139, 34);
+}
+
+#last-section{
+    height: 1080px;
+}
+
+#last-div{
+    height: 75%;
 }
