@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-#main-box{
-    
-}
-
 header{
     background-color: rgb(0, 0, 119);
     display: flex;
@@ -15,10 +11,9 @@ header{
 }
 
 #header-nav{
-    height: 50px;
+    height: 75px;
     width: 100%;
     background-color: rgb(173, 216, 230);
-    text-decoration: none;
     color: white;
     display: flex;
     justify-content: center;
@@ -26,21 +21,39 @@ header{
     font-size: large;
 }
 
-.nav-link{
-
-}
-
-#top-menu{
+#header-nav div{
+    background-color: rgb(218, 165, 32);
+    line-height: 35px;
     display: flex;
     justify-content: center;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
 }
 
-.nav-item{
-    background-color: rgb(218, 165, 32);
+#nav-menu span{
+    padding: 0 10px;
 }
+
+#nav-menu{
+    width: 680px;
+    border: 1px solid grey;
+}
+
+.nav-side{
+    width: 200px;
+}
+
+#logo{
+    display: flex;
+    justify-content: left;
+    border: 1px solid grey;
+}
+
+#login{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    border: 1px solid grey;
+}
+
 
 #header-bio{
     height: 650px;
@@ -57,11 +70,6 @@ header{
     min-height: 75%;
 }
 
-h1{
-    font-size: 50px;
-    padding-bottom: 50px;
-}
-
 h2{
     font-size: 75px;
     padding-bottom: 75px;
@@ -76,3 +84,14 @@ h2 ~ p{
     width: 980px;
 }
 
+section main{
+    height: 1080px;
+}
+
+.div-larg{
+
+}
+
+.div-small{
+
+}
